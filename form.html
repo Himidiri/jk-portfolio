@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact Us</title>
+  <!-- External Style Sheet -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome cdn Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav>
+      <div class="margin"></div>
+      <input type="checkbox" id="navm">
+      <label for="navm">
+        <i class="fas fa-bars" id="s1"></i>
+        <i class="fas fa-times" id="s2"></i>
+      </label>
+      <ul class="navbar">
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./about.html">About Artist</a></li>
+        <li><a href="main.html#music">Music</a></li>
+        <li><a href="main.html#gimg">Gallery</a></li>
+        <li><a href="./blogs.html">News</a></li>
+        <li><a href="./form.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+    <h1>Contact Us</h1>
+  </header>
+
+  <!-- Form Section  -->
+  <section class="form">
+    <article>
+      <h2>
+        We are fans. We are not Jungkook and we have no affiliation with the artist, his team, or his label.
+      </h2>
+      <p>If you would like to contact us, please send us a message below.</p>
+      <p>
+        Please keep in mind that we are unable to respond to all messages at this time.
+      </p>
+      <p>
+        Thank you very much for visiting! We will continue to do our best to support Jungkook.
+      </p>
+    </article>
+    <section class="row">
+      <section class="column">
+        <img src="./Images/Jk_form_img.jpg" alt="Jungkook's Picture">
+      </section>
+      <section class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your First Name" required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your Last Name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Email" required>
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="srilanka">Sri Lanka</option>
+            <option value="korea">South Korea</option>
+            <option value="japan">Japan</option>
+            <option value="china">China</option>
+            <option value="other">Other</option>
+          </select>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write Your Message Here ..." required></textarea>
+          <button class="button" type="submit">
+            <i class="fa fa-paper-plane"></i> <b>SEND MESSAGE</b>
+          </button>
+        </form>
+      </section>
+    </section>
+  </section>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer class="container footer ">
+    <aside class="bgfooter">
+      <h3>Contact Me</h3>
+      <div class="flex-container-2">
+        <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Eheliyagoda,Sri Lanka</p>
+        <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0763689998</p>
+        <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;himidirihimakanika@gmail.com</p>
+      </div>
+    </aside>
+    <div class="vl"></div>
+    <aside class="followme">
+      <h3>Follow Me !</h3>
+      <div class="flex-container">
+        <a href="https://www.facebook.com/profile.php?id=100011204287367"><i
+            class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/himidiri_himakanika/"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+        <a href="https://twitter.com/himakanika"><i class="fab fa-twitter-square fa-3x"></i></a>
+      </div>
+    </aside>
+    <div class="sfooter">
+      <p>&copy; Designed by | Himidiri Himakanika</p>
+    </div>
+  </footer>
+</body>
+
+</html>

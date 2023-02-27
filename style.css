@@ -1,0 +1,1052 @@
+/* Fonts */
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url(./Fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: Montserrat-Light;
+  src: url(./Fonts/Montserrat/static/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: Raleway-Medium;
+  src: url(./Fonts/Raleway/static/Raleway-Medium.ttf);
+}
+@font-face {
+  font-family: WorkSans-Light;
+  src: url(./Fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+
+
+/* Reset  */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Basic Styling  */
+body {
+  background-color: rgb(0, 0, 0);
+}
+h1 {
+  font-family: Montserrat-Regular;
+  font-size: 60px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 3px 4px rgb(171, 171, 171),
+    2.5px 3.5px 4.5px rgb(64, 186, 202);
+  margin-bottom: 60px;
+  word-wrap: break-word;
+}
+
+
+/* Flex Container  */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+
+/* Navigation  */
+nav {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  padding: 45px;
+}
+nav ul li {
+  list-style: none;
+  display: inline;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+.navbar a:link,
+:visited {
+  color: rgb(255, 255, 255);
+}
+.navbar a:hover {
+  color: rgb(122, 134, 144);
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+.navbar a.active {
+  color: rgb(14, 129, 147);
+}
+
+/* --Home-- */
+h2 {
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 300;
+  text-align: center;
+}
+h3 {
+  color: white;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 300;
+  text-align: center;
+  font-size: 25px;
+}
+hr {
+  display: block;
+  margin: 7% 25%;
+  border-style: inset;
+  border-width: 1px;
+}
+
+
+/* Slide Show */
+.mySlides {
+  width: 100%;
+  display: none;
+  margin-bottom: 65px;
+}
+
+
+/* Description Section */
+.jkdetails {
+  background-image: linear-gradient(rgb(62, 62, 62), rgb(24, 23, 23));
+  line-height: 2.5em;
+  padding: 1% 3% 2% 3%;
+  margin: 0 auto;
+  width: 70%;
+}
+.jkdetails h2,
+.container h2 {
+  color: rgb(255, 255, 255);
+  font-size: 4ch;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 300;
+  text-align: center;
+  margin: 20px 0px;
+  word-wrap: break-word;
+}
+.jkdetails p {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Montserrat-Light;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+
+/* Music Section */
+.video iframe {
+  margin: 40px 20px 0px 20px;
+  width: 400px;
+  height: 320px;
+}
+
+
+/* Gallery Section */
+.gimg img {
+  width: 370px;
+  height: 520px;
+  object-fit: cover;
+  object-position: top;
+  padding: 20px;
+  margin-top: 50px;
+}
+.gimg img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+
+/* Post Section */
+.card {
+  background: rgba(53, 53, 53, 0.432);
+  width: 340px;
+  margin: 50px 20px 0px 20px;
+  border-radius: 15px;
+}
+.card-image {
+  height: 400px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+}
+.card-1 {
+  background-image: url(./Images/mainjk.jpg);
+}
+.card-2 {
+  background-image: url(./Images/mainjk2.jpg);
+}
+.card-3 {
+  background-image: url(./Images/mainjk3.jpg);
+}
+.card p {
+  padding: 5px 10px;
+  font-family: WorkSans-Light;
+  line-height: 1.4em;
+  font-size: 18px;
+  color: white;
+  word-wrap: break-word;
+}
+.card h2 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 200;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  word-wrap: break-word;
+}
+.card a {
+  background-color: rgba(85, 85, 85, 0.645);
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 110px;
+  text-decoration: none;
+  font-family: WorkSans-Light;
+  font-size: 2ch;
+  border-radius: 30px;
+  border: 2px solid rgb(199, 199, 199);
+}
+.card a.active {
+  color: rgb(14, 129, 147);
+}
+.card a:hover {
+  background-color: rgba(22, 22, 22, 0.293);
+  color: white;
+  border: none;
+  border: 2px solid rgb(0, 0, 0);
+}
+.card:hover {
+  background-color: rgba(97, 97, 97, 0.642);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 1s ease;
+}
+
+/* Negation Pseudo Class */
+.card :not(p, h2, a) {
+  color: rgb(24, 189, 186);
+}
+
+
+/* Socialmedia Section */
+.socialmedia {
+  margin-top: 2%;
+}
+.socialmedia a {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+.socialmedia a:hover {
+  color: rgb(157, 157, 157);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+/* Structural Selectors nth-child() */
+.socialmedia a:hover:nth-child(2) {
+  color: rgb(159, 39, 39);
+  scale: 1.2;
+}
+.socialmedia a:hover:nth-child(4) {
+  color: rgb(31, 119, 137);
+  scale: 1.2;
+}
+
+
+/* Footer */
+/* Big Footer */
+.footer aside {
+  margin: 0 auto;
+  width: 30%;
+}
+.bgfooter {
+  color: rgb(255, 255, 255);
+}
+.bgfooter h3 {
+  font-size: 35px;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: white;
+  margin-bottom: 8%;
+}
+.bgfooter p {
+  margin-bottom: 20px;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 20px;
+}
+
+
+/* vertical line */
+.vl {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 3px;
+  height: 200px;
+  background: transparent;
+  margin-top: 100px;
+}
+.vl::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(transparent, #fff, transparent);
+  animation: animate 2s linear infinite;
+}
+
+
+/* Animation */
+@keyframes animate {
+  0% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  50% {
+    transform-origin: top;
+    transform: scaleY(1);
+  }
+  51% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+  100% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+}
+.followme {
+  width: 30%;
+  text-align: center;
+}
+.followme h3 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-family: "Fuzzy Bubbles", cursive;
+  color: white;
+}
+.followme a {
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 5%;
+}
+.followme a:hover {
+  color: rgb(157, 157, 157);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+
+/* Small Footer */
+.footer .sfooter {
+  width: 100%;
+  background-color: rgba(69, 69, 69, 0.506);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Fuzzy Bubbles", cursive;
+  padding: 20px;
+  word-wrap: break-word;
+}
+
+
+/* About Page */
+/* About Section */
+.about {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgb(41, 40, 40), rgb(24, 23, 23));
+}
+.about .content img {
+  height: auto;
+  width: 650px;
+  max-width: 100%;
+  transform: skewY(-5deg);
+}
+.about .content img:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+.text {
+  width: 550px;
+  max-width: 100%;
+  padding: 0 20px;
+}
+.content {
+  width: 1200px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+.text h5 {
+  font-family: "Fuzzy Bubbles", cursive;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  text-align: center;
+  word-wrap: break-word;
+}
+.text p {
+  font-family: Montserrat-Light;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+
+
+/* Pseudo elements */
+.text p::first-letter {
+  font-size: 170%;
+  font-weight: bold;
+}
+.about .content a:link,
+:visited {
+  background-color: rgb(85, 85, 85);
+  color: rgb(255, 255, 255);
+  border: 2px solid transparent;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Fuzzy Bubbles", cursive;
+  text-decoration: none;
+}
+.about .content a:hover {
+  transform: scale(1.2);
+  background-color: transparent;
+  border: 2px solid rgb(193, 192, 192);
+  color: rgb(201, 201, 201);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+
+/* Facts Section */
+.facts h2 {
+  color: rgb(255, 255, 255);
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 40px;
+  margin: 4% 0;
+  word-wrap: break-word;
+}
+.facts ul li {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-family: Raleway-Medium;
+  line-height: 1.8em;
+  letter-spacing: 0.11em;
+  margin: 3ch 4ch 3ch 3ch;
+  word-wrap: break-word;
+}
+.facts ul {
+  text-align: center;
+  border: 0.2ch solid rgb(255, 255, 255);
+  border-radius: 9ch;
+  margin: 0% 30% 5% 30%;
+  padding: 5ch;
+  background-color: rgba(62, 62, 62, 0.353);
+}
+
+
+/* Blog Page */
+/* Blog Section */
+.blog {
+  background-color: rgba(139, 139, 139, 0.229);
+  width: 450px;
+  margin: 30px;
+  transition: 0.3s;
+  animation: animation 2s ease-in-out forwards;
+  position: relative;
+  transition: animation ease-in-out;
+}
+.blog-image {
+  height: 250px;
+  background-size: cover;
+  padding: 20px;
+}
+.blog-1 {
+  background-image: url(./Images/blog1.png);
+}
+.blog-2 {
+  background-image: url(./Images/blog2.jpg);
+}
+.blog h4 {
+  color: white;
+  float: left;
+  line-height: 1.7em;
+  letter-spacing: 0.13em;
+  font-family: WorkSans-Light;
+  padding: 15px;
+}
+.blog p {
+  font-family: WorkSans-Light;
+  float: left;
+  line-height: 1.3em;
+  letter-spacing: 0.11em;
+  padding: 15px;
+  text-align: justify;
+}
+.blog a,
+.blog a:visited {
+  color: white;
+  text-decoration: none;
+}
+.blog a.active {
+  color: rgb(14, 129, 147);
+}
+.blog:hover {
+  box-shadow: 3px 8px 16px 3px rgba(242, 242, 242, 0.387);
+}
+
+
+/* Negation Pseudo Class */
+.blog :not(p, b, h4, a) {
+  color: rgb(24, 189, 186);
+}
+
+
+/* Side Blog Section */
+.cblog {
+  background-color: rgba(139, 139, 139, 0.229);
+  padding: 16px;
+  animation: animation1 2s ease-in forwards;
+  position: relative;
+  transition: animation ease-in-out;
+}
+.box h3,
+.blogf h3 {
+  text-align: center;
+  color: white;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 25px;
+}
+.box ul {
+  list-style: none;
+  float: left;
+  padding: 16px;
+  width: 100%;
+}
+.box ul li {
+  border-bottom: 1px solid white;
+  margin-top: 20px;
+}
+.box ul li img {
+  width: 150px;
+  float: left;
+  margin-right: 16px;
+  vertical-align: middle;
+  border-style: none;
+}
+.box ul li a:link,
+:visited {
+  text-decoration: none;
+  color: white;
+}
+.box ul li a.active {
+  color: rgb(14, 129, 147);
+}
+.box ul li:hover {
+  background-color: rgb(117, 117, 117);
+}
+.bline {
+  display: none;
+}
+.box p,
+.blogf p {
+  font-family: WorkSans-Light;
+  line-height: 1.5em;
+  font-size: 2ch;
+  width: 100%;
+  color: white;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Child Combinator */
+p > span {
+  font-weight: bold;
+}
+.blogf {
+  text-align: center;
+  width: 100%;
+}
+.blogf h3,
+.blogf p {
+  margin-bottom: 20px;
+}
+
+
+/* Attribute selectors */
+.blogf [type="email"] {
+  border: none;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  margin-bottom: 30px;
+  color: #fff;
+  background: transparent;
+  width: 100%;
+  outline: none;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fuzzy Bubbles", cursive;
+}
+.blogf [type="submit"] {
+  background: #fff;
+  color: #000;
+  padding: 8px;
+  max-width: 100px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: "Fuzzy Bubbles", cursive;
+  font-weight: 300;
+  border-radius: 32px;
+  margin-bottom: 25px;
+  border: none;
+  border: 2px solid rgb(200, 200, 200);
+}
+.blogf [type="submit"]:hover {
+  background-color: transparent;
+  color: white;
+}
+
+
+/* Pseudo elements */
+.blogf input::placeholder {
+  color: rgba(225, 225, 225, 0.636);
+}
+
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+.pagination a {
+  color: rgb(255, 255, 255);
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-family: WorkSans-Light;
+}
+.pagination a.active {
+  background-color: #868686;
+  color: white;
+}
+.pagination a:hover:not(.active) {
+  background-color: rgb(155, 155, 155);
+}
+
+
+/* Animation  */
+@keyframes animation {
+  0% {
+    left: -7%;
+  }
+
+  100% {
+    left: 0;
+  }
+}
+@keyframes animation1 {
+  0% {
+    right: -3%;
+  }
+
+  100% {
+    right: 0;
+  }
+}
+
+
+/* Form Page */
+/* Form Section */
+.form {
+  border-radius: 60px;
+  background-image: linear-gradient(rgb(62, 62, 62), rgb(24, 23, 23));
+  padding: 40px;
+  margin: 0% 20% 5% 20%;
+}
+.form h2 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: WorkSans-Light;
+  color: white;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+.form p {
+  text-align: center;
+  font-family: WorkSans-Light;
+  font-size: 18px;
+  color: white;
+  line-height: 1.5em;
+  word-wrap: break-word;
+}
+
+
+/* Attribute selectors */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid rgb(118, 118, 118);
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.column img {
+  width: 60%;
+}
+.button {
+  padding: 1.5ch;
+  font-family: WorkSans-Light;
+}
+#message {
+  height: 170px;
+}
+input:valid {
+  outline: 2px solid rgb(28, 180, 155);
+}
+input:invalid {
+  outline: 2px solid rgb(113, 24, 24);
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  font-family: WorkSans-Light;
+  color: white;
+}
+
+
+/* Clear floats after the columns & Make the two columns stack on top of each other instead of next to each other*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.clear {
+  clear: both;
+}
+.margin {
+  margin-top: 10px;
+  width: 100%;
+  height: 10px;
+}
+
+
+/* Responsive */
+/* Screen 650px Styles*/
+@media screen and (max-width: 650px) {
+
+  /* About Section Styles */
+  .about .content img {
+    margin-bottom: 35px;
+  }
+  .text p {
+    font-size: 16px;
+  }
+  .vl {
+    display: none;
+  }
+}
+
+
+/* Screen 746px Styles*/
+@media screen and (max-width: 746px) {
+
+  /* Navigation Styles */
+  #navm:checked ~ ul {
+    width: 80%;
+  }
+  .vl {
+    margin-top: 60px;
+  }
+}
+
+
+/* Screen 800px Styles */
+@media screen and (max-width: 800px) {
+  h1 {
+    margin: 0;
+  }
+
+  /* Form Styles */
+  .form {
+    margin: 15px auto;
+    width: 100%;
+  }
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .column img {
+    margin-left: 20%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .flex-container-2 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .sfooter {
+    margin-top: 40px;
+  }
+  .flex-container-2 i {
+    width: 100%;
+    display: inline-block;
+    text-align: start;
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+  .footer {
+    overflow: hidden;
+    padding: 16px;
+  }
+  .vl {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    transform: translate(0%, 0%);
+    width: 3px;
+    min-height: 100%;
+    background: transparent;
+    margin-top: 0;
+    height: auto;
+  }
+
+  /* Pseudo elements with generated content */
+  .vl::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, #fff, transparent);
+    animation: animate 2s linear infinite;
+  }
+}
+
+
+/* Screen 990px Styles */
+@media screen and (max-width: 990px) {
+
+  /* Navigation Style */
+  nav {
+    padding: 0;
+  }
+
+  /* Hide Previous Navigation */
+  nav ul li {
+    display: none;
+    width: 100%;
+  }
+
+  /* fontawesome icon  */
+  #navm:checked ~ label #s2 {
+    display: block;
+  }
+
+  /* fontawesome icon  */
+  #navm:checked ~ label #s1 {
+    display: none;
+  }
+
+  /* fontawesome icon  */
+  #s2 {
+    display: none;
+  }
+
+  /* User input checked styles for ul */
+  #navm:checked ~ ul {
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 0;
+    position: fixed;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(37, 37, 37, 0.609);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+  }
+  nav a {
+    width: 80%;
+    text-align: left;
+  }
+  #navm:checked ~ ul li {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #navm:checked input[type="checkbox"] {
+    display: none;
+  }
+
+  /* Add content using Pseudo element */
+  nav ul li a::before {
+    content: ">";
+    position: relative;
+    color: #fff;
+    left: -10px;
+  }
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  /* fontawesome icon  */
+  nav i {
+    float: right;
+    padding: 16px;
+    color: #fff;
+    font-size: 40px;
+  }
+  .vl {
+    margin-top: 80px;
+  }
+
+  /* All h1 Style */
+  h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  /* All h2 Style */
+  h2,
+  .jkdetails h2,
+  .card h2,
+  .facts h2 {
+    font-size: 25px;
+  }
+
+  .bgfooter h3,
+  .followme h3 {
+    font-size: 22px;
+  }
+
+  /* All p Styles */
+  .bgfooter p,
+  .jkdetails p,
+  .text p {
+    font-size: 18px;
+  }
+
+  /* About Section Styles */
+  .facts ul {
+    margin: 0 10% 5% 10%;
+  }
+  .facts ul li {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  /* Blog Section Style */
+  .cblog {
+    width: 100%;
+  }
+  .box p {
+    padding: 20px;
+  }
+  .cblog ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 12px;
+    text-align: center;
+  }
+  .cblog ul li a img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .blogf {
+    padding: 30px;
+  }
+  .box ul li {
+    border-bottom: none;
+  }
+  .bline {
+    display: block;
+    margin: 7% 25%;
+    border-style: inset;
+    border-width: 1px;
+  }
+}
+
+
+/* Hide Checkbox */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* Screen 1180px Styles */
+@media screen and (max-width: 1180px) {
+  .vl {
+    margin-top: 80px;
+  }
+
+  /*About Section Style */
+  .about {
+    width: 100%;
+    height: auto;
+    padding: 70px 0px;
+  }
+  .text h5 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .about .content img {
+    margin-bottom: 30px;
+  }
+}

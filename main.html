@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Home</title>
+  <!-- External Style Sheet -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome cdn Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav>
+      <div class="margin"></div>
+      <input type="checkbox" id="navm">
+      <label for="navm">
+        <i class="fas fa-bars" id="s1"></i>
+        <i class="fas fa-times" id="s2"></i>
+      </label>
+      <ul class="navbar">
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./about.html">About Artist</a></li>
+        <li><a href="#music">Music</a></li>
+        <li><a href="#gimg">Gallery</a></li>
+        <li><a href="./blogs.html">News</a></li>
+        <li><a href="./form.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+    <h1>Jungkook</h1>
+  </header>
+
+  <!-- Automatic Slideshow Images -->
+  <section>
+    <img class="mySlides" src="./Images/slide1.png" alt="Jungkook's Picture">
+    <img class="mySlides" src="./Images/slide2.png" alt="Jungkook's Picture">
+    <img class="mySlides" src="./Images/slide3.png" alt="Jungkook's Picture">
+  </section>
+
+  <!-- Portfolio Description -->
+  <section class="container">
+    <div class="jkdetails">
+      <h2>Welcome to Jeon Jungkook's Portfolio!</h2>
+      <p>
+        Jungkook is a singer, songwriter, and dancer. He is the main vocalist, center, lead dancer, and sub rapper of
+        the biggest band in the world,<span> BTS </span>.
+      </p>
+      <p>
+        In <time datetime="2022">2022</time>, Jungkook officially started his career as a solo artist and announced that
+        he is working on his solo album.
+      </p>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Music Section -->
+  <h2 id="music">Solo Songs</h2>
+  <section class="container">
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/djKdPZiJdvA" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <div class="vdis">
+        <h3>Still With You</h3>
+      </div>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/TEl34dx48TY" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <div class="vdis">
+        <h3>Look At Me</h3>
+      </div>
+    </div>
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/JUDtG2TVa3M" title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <div class="vdis">
+        <h3>My You</h3>
+      </div>
+    </div>
+  </section>
+  <hr>
+
+  <!-- Gallery Section -->
+  <h2 id="gimg">Gallery</h2>
+  <section>
+    <div class="container gimg">
+      <img src="./Images/img1.png" alt="Jungkook's Picture">
+      <img src="./Images/img2.png" alt="Jungkook's Picture">
+      <img src="./Images/img3.jpg" alt="Jungkook's Picture">
+      <img src="./Images/img4.jpg" alt="Jungkook's Picture">
+      <img src="./Images/img5.jpg" alt="Jungkook's Picture">
+      <img src="./Images/img6.jpg" alt="Jungkook's Picture">
+    </div>
+  </section>
+  <hr>
+
+  <!-- Home Post Section -->
+  <h2>Post</h2>
+  <section class="container sblog">
+    <article class="card">
+      <div class="card-image card-1"></div>
+      <h2>Vote for Jungkook!</h2>
+      <p>
+        Vote for “Left and Right” at the People’s Choice Awards for: “Collaboration of <time
+          datetime="2022">2022</time>” and “Music Video of <time datetime="2022">2022</time>”.
+      </p>
+      <a href="https://www.votepca.com/music/the-music-video-of-2022">Vote</a>
+    </article>
+    <article class="card">
+      <div class="card-image card-2"></div>
+      <h2>Congratulations Jungkook!</h2>
+      <p>
+        Jungkook will receive the “Eternal Artist Award” at the <time datetime="2022">2022</time> Melon Music Awards!
+        The MMAs will air on <time datetime="2022-11-26">November 26th</time>.
+      </p>
+    </article>
+    <article class="card">
+      <div class="card-image card-3"></div>
+      <h2>Congratulations Jungkook!</h2>
+      <p>
+        Jungkook has been chosen as Audacy’s “Artist of the Summer”, <time datetime="2022">2022</time>!
+      </p>
+    </article>
+  </section>
+  <hr>
+
+  <!-- Socialmedia Section -->
+  <h2>Follow Jungkook’s Official Accounts !</h2>
+  <div class="container socialmedia">
+    <a href="https://www.facebook.com/Jungkook.Intl/"><i class="fab fa-facebook-square fa-3x"></i></a>
+    <a href="https://www.youtube.com/user/ibighit"><i class="fab fa-youtube-square fa-3x"></i></a>
+    <a href="https://instagram.com/jungkook.97?igshid=YmMyMTA2M2Y="><i
+        class="fa-brands fa-instagram-square fa-3x"></i></a>
+    <a href="https://twitter.com/btsjungkook_ie1"><i class="fab fa-twitter-square fa-3x"></i></a>
+    <a href="https://open.spotify.com/artist/6HaGTQPmzraVmaVxvz6EUc?si=KxPnk-jjQ9aniHZWqvK3fQ"><i
+        class="fa-brands fa-spotify fa-3x"></i></a>
+  </div>
+  <hr>
+
+  <!-- Footer -->
+  <footer class="container footer">
+    <aside class="bgfooter">
+      <h3>Contact Me</h3>
+      <div class="flex-container-2">
+        <p>
+          <i class="fa fa-map-marker"></i>&nbsp;&nbsp;Eheliyagoda,Sri Lanka
+        </p>
+        <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0763689998</p>
+        <p>
+          <i class="fa fa-envelope"></i>&nbsp;&nbsp;himidirihimakanika@gmail.com
+        </p>
+      </div>
+    </aside>
+    <div class="vl"></div>
+    <aside class="followme">
+      <h3>Follow Me !</h3>
+      <div class="flex-container">
+        <a href="https://www.facebook.com/profile.php?id=100011204287367"><i
+            class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/himidiri_himakanika/"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+        <a href="https://twitter.com/himakanika"><i class="fab fa-twitter-square fa-3x"></i></a>
+      </div>
+    </aside>
+    <div class="sfooter">
+      <p>&copy; Designed by | Himidiri Himakanika</p>
+    </div>
+  </footer>
+
+  <!-- Javascript for Automatic Slideshow -->
+  <script src="./slideshow.js"></script>
+</body>
+
+</html>

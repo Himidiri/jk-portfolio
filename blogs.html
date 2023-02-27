@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>News</title>
+  <!-- External Style Sheet -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- Font Awesome cdn Link  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <header>
+    <!-- Navigation -->
+    <nav>
+      <div class="margin"></div>
+      <input type="checkbox" id="navm">
+      <label for="navm">
+        <i class="fas fa-bars" id="s1"></i>
+        <i class="fas fa-times" id="s2"></i>
+      </label>
+      <ul class="navbar">
+        <li><a href="./main.html">Home</a></li>
+        <li><a href="./about.html">About Artist</a></li>
+        <li><a href="main.html#music">Music</a></li>
+        <li><a href="main.html#gimg">Gallery</a></li>
+        <li><a href="./blogs.html">News</a></li>
+        <li><a href="./form.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="clear"></div>
+    <h1>News</h1>
+  </header>
+
+  <!-- Blog Section -->
+  <section class="container">
+    <article class="blog">
+      <a href="https://en.wikipedia.org/wiki/Jungkook">
+        <div class="blog-image blog-1"></div>
+        <p><time datetime="2022-11-02">November 2, 2022</time></p>
+        <h4>
+          <b>Jungkook Will Receive the Eternal Artist Award at the <time datetime="2022">2022</time> MMAs</b>
+        </h4>
+        <p>
+          Melon has confirmed that Jungkook will receive the “Eternal Artist Award” at the <time datetime="2022">2022</time> Melon Music Awards. Jungkook has been included in the list of the “Top 10 Favorite K-Pop Idols” and will be awarded with the MMA Plaque ...
+        </p>
+        <p>Continue Reading</p>
+      </a>
+    </article>
+    <article class="blog">
+      <a href="https://en.wikipedia.org/wiki/Jungkook">
+        <div class="blog-image blog-2"></div>
+        <p><time datetime="2022-11-01">November 1, 2022</time></p>
+        <h4>
+          <b>Jungkook Sent Water to Fans Who Were Waiting in the Heat</b>
+        </h4>
+        <p>
+          Jungkook recently traveled to Qatar on <time datetime="2022-10-24">October 24th</time>, to promote the <time datetime="2022">2022</time> FIFA World Cup. Authorities treated him like royalty during his visit, while fans were overjoyed to see the superstar. Fans cheered and waved at Ju ...
+        </p>
+        <p>Continue Reading</p>
+      </a>
+    </article>
+
+    <!-- Side Blog Section -->
+    <section class="cblog">
+      <section class="box">
+        <h3>Popular Posts</h3>
+        <ul class="smallBlog">
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Jungkook"><img src="./Images/blog1.png" alt="Jungkook’s Picture">
+              <p>
+                Jungkook Will Receive the Eternal ... <br><br><span class="date"><time datetime="2022-11-02">November 2,2022</time></span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Jungkook"><img src="./Images/blog3.png" alt="Jungkook’s Picture">
+              <p>
+                Jungkook Received a Royal Welcome ... <br><br><span class="date"><time datetime="2022-10-31">October 31,2022</time></span>
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="https://en.wikipedia.org/wiki/Jungkook"><img src="./Images/blog4.png" alt="Jungkook’s Picture">
+              <p>
+                Jungkook: Named a Disney Prince ... <br><br><span class="date"><time datetime="2022-10-26">October 26,2022</time></span>
+              </p>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <hr class="bline">
+      <section class="blogf">
+        <form action="/action_page.php">
+          <article>
+            <h3>Sign up for blog updates!</h3>
+            <p>Join my email list to receive updates and information.</p>
+          </article>
+          <div class="blogf">
+            <input type="email" id="email" name="email" placeholder="Email" required>
+          </div>
+          <div class="blogf">
+            <button type="submit" class="signupbtn"><b>Sign Up</b></button>
+          </div>
+        </form>
+      </section>
+    </section>
+  </section>
+
+  <!-- Pagination -->
+  <section class="pagination">
+    <a href="https://en.wikipedia.org/wiki/Jungkook">&laquo;</a>
+    <a href="https://en.wikipedia.org/wiki/Jungkook">1</a>
+    <a href="./blogs.html" class="active">2</a>
+    <a href="https://en.wikipedia.org/wiki/Jungkook">3</a>
+    <a href="https://en.wikipedia.org/wiki/Jungkook">4</a>
+    <a href="https://en.wikipedia.org/wiki/Jungkook">5</a>
+    <a href="https://en.wikipedia.org/wiki/Jungkook">&raquo;</a>
+  </section>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer class="container footer ">
+    <aside class="bgfooter">
+      <h3>Contact Me</h3>
+      <div class="flex-container-2">
+        <p><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Eheliyagoda,Sri Lanka</p>
+        <p><i class="fa fa-phone"></i>&nbsp;&nbsp;0763689998</p>
+        <p><i class="fa fa-envelope"></i>&nbsp;&nbsp;himidirihimakanika@gmail.com</p>
+      </div>
+    </aside>
+    <div class="vl"></div>
+    <aside class="followme">
+      <h3>Follow Me !</h3>
+      <div class="flex-container">
+        <a href="https://www.facebook.com/profile.php?id=100011204287367"><i class="fab fa-facebook-square fa-3x"></i></a>
+        <a href="https://www.instagram.com/himidiri_himakanika/"><i class="fa-brands fa-instagram-square fa-3x"></i></a>
+        <a href="https://twitter.com/himakanika"><i class="fab fa-twitter-square fa-3x"></i></a>
+      </div>
+    </aside>
+    <div class="sfooter">
+      <p>&copy; Designed by | Himidiri Himakanika</p>
+    </div>
+  </footer>
+</body>
+
+</html>
